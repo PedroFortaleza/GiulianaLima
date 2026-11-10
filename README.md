@@ -12,3 +12,5 @@ node serve.mjs
 Abra http://127.0.0.1:3001.
 
 O fluxo [Publicar site](.github/workflows/pages.yml) envia `site/` ao GitHub Pages após commits na branch `main`. O protótipo usa `noindex` e não contém formulários, analytics ou cookies.
+
+Na Vercel, [`vercel.json`](vercel.json) define `site/` como diretório de saída. Use a raiz deste repositório como **Root Directory** no projeto Vercel.
